@@ -1,0 +1,50 @@
+
+.postbody {
+  img {
+    border-radius: 20px;
+    width: 100%;
+  }
+} 
+
+.post {
+  max-width: 600px;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid $car-background;
+}
+
+.postfooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.postheaderSpecial {
+  font-weight: 600;
+  font-size: 12px;
+  color: gray;
+}
+
+.postheaderText {
+  h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+} 
+
+.postbadge {
+  font-size: 14px !important;
+  color: $car-color;
+}
+
+.postheaderDescription {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.postbody {
+  flex: 1;
+  padding: 10px;
+}
+.postavatar {
+  padding: 20px;
+}

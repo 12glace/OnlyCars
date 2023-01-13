@@ -1,0 +1,19 @@
+
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px;
+    h2 {
+      font-weight: 700;
+      font-size: 25px;
+      margin: 15px;
+    }
+}
+.sidebarOption:hover {
+  background-color: #feefe8;
+  color: $car-color;
+}
+.sidebarOption--active {
+  color: $car-color;
+}

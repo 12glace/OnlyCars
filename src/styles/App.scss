@@ -1,0 +1,50 @@
+
+$car-color: #ff6219 ;
+$car-background: #f0e9e6;
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+.app {
+  margin-left: auto;
+  display: flex;
+  height: 100vh;
+  margin-right: auto;
+  max-width: 1300px;
+}
+*{
+  padding: 0;
+  margin: 0;
+  }
+
+  .display{
+    h1{
+      text-align: center;
+      color: #fff;
+      margin-top: 50%;
+    }
+    text-align: center;
+    position: absolute;
+    background-color: $car-color;
+    width: 50%;
+    min-height: 1000px;
+  }
+  .login{
+    
+    float: right;
+    width: 35%;
+    margin-top: 20%;
+
+  }
+
+  .logoff{
+    position: absolute;
+    left: 75%;
+  }
+  .flex{
+    display: flex;
+  }
+  .feed{
+    h2{padding: 10px;}
+  }
+  
